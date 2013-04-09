@@ -14,4 +14,5 @@ include lastpass
 
 ## Development
 
-Write code. Run `rake build` to test it.
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.

@@ -17,7 +17,7 @@ GEM
       puppetlabs_spec_helper (~> 0.4)
       rspec-puppet (~> 0.1)
     diff-lcs (1.2.1)
-    facter (1.6.17)
+    facter (1.6.18)
     faraday (0.8.6)
       multipart-post (~> 1.1)
     faraday_middleware (0.9.0)
@@ -43,7 +43,7 @@ GEM
       hashie (~> 1.2)
       multi_json (~> 1.3)
       netrc (~> 0.7.7)
-    puppet (3.1.0)
+    puppet (3.1.1)
       facter (~> 1.6)
       hiera (~> 1.0)
     puppet-lint (0.3.2)
@@ -57,7 +57,7 @@ GEM
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
-    rspec-core (2.13.0)
+    rspec-core (2.13.1)
     rspec-expectations (2.13.0)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.13.0)
@@ -70,7 +70,3 @@ PLATFORMS
 
 DEPENDENCIES
   cardboard (~> 1.0)
-  puppet-lint
-  rake
-  rspec (~> 2.13.0)
-  rspec-puppet
